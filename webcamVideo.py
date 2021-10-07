@@ -22,4 +22,6 @@ while video.isOpened():
         if k==ord('x'):
             break
 video.release()
+output1.release()
+output2.release()
 cv2.destroyAllWindows()
